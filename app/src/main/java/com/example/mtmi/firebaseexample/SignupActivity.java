@@ -103,7 +103,8 @@ public class SignupActivity extends AppCompatActivity {
                             startActivity(new Intent(SignupActivity.this,MainActivity.class));
                             finish();
                         } else{
-                            Toast.makeText(SignupActivity.this,"wrong password or email",Toast.LENGTH_SHORT);
+                            //yorum
+                            Toast.makeText(SignupActivity.this,"wrong password or email!",Toast.LENGTH_SHORT);
                         }
                     }
                 });
