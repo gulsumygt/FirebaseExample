@@ -14,5 +14,5 @@
         android:id="@+id/etk_ekle_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="etkinlik ekle!" />
+        android:text="araba ekle" />
 </RelativeLayout>

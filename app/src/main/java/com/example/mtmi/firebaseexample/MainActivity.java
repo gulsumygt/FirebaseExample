@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         etk_ekle_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,EtkinlikActivity.class));
+                startActivity(new Intent(MainActivity.this,ArabaEkleActivity.class));
             }
         });
     }
